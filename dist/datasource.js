@@ -64,7 +64,7 @@ System.register([], function(exports_1) {
                                             rows: response.data.map(function (d) {
                                                 return {
                                                     "time": Date.parse(d["time"]),
-                                                    "value": d[b] * 1000
+                                                    "value": d[b]
                                                 };
                                             }),
                                             target: a

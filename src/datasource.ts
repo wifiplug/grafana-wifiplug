@@ -68,7 +68,7 @@ export default class WifiPlugDatasource {
                           rows: response.data.map(d => {
                               return {
                                   "time": Date.parse(d["time"]),
-                                  "value": d[b] * 1000
+                                  "value": d[b]
                               };
                           }),
                           target: a

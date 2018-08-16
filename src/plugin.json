@@ -4,7 +4,7 @@
   "id": "wifiplug-datasource",
 
   "info": {
-    "description": "Provides a datasource for WIFIPLUG energy consumption information",
+    "description": "Provides a datasource for WIFIPLUG energy data",
     "author": {
       "name": "WIFIPLUG",
       "url": "https://wifiplug.co.uk"
@@ -18,9 +18,12 @@
       {"name": "Project site", "url": "https://github.com/wifiplug/grafana-wifiplug"},
       {"name": "Company site", "url": "https://wifiplug.co.uk"}
     ],
-    "version": "%VERSION%",
-    "updated": "%TODAY%"
+    "version": "0.1.0"
   },
+
+  "screenshots": [
+    {"name": "Example Dashboard", "path": "img/dashboard_example.png"}
+  ],
 
   "dependencies": {
     "grafanaVersion": "4.5.x",

@@ -7,9 +7,13 @@
 
 This repository provides a Grafana datasource plugin for working with the WIFIPLUG platform.
 
+[![Demonstration](https://s3-eu-west-1.amazonaws.com/assets.wifiplug.co.uk/github/grafana-wifiplug-1.png)](https://s3-eu-west-1.amazonaws.com/assets.wifiplug.co.uk/github/grafana-wifiplug-1.png)
+
 ## Getting Started
 
 To get started you need a personal API Key & API Secret.
+
+Please note that the API is subject to rate limits and excessive usage my be throttled, contact us directly if you believe this may be a problem or if you require a billed API plan.
 
 ## Contributing
 

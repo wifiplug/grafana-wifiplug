@@ -37,7 +37,7 @@
       "url": "https://api.wifiplug.co.uk/v1.0",
       "headers": [
         {"name": "X-API-Key", "content": "{{.JsonData.apiKey}}"},
-        {"name": "X-API-Secret", "content": "{{.JsonData.apiSecret}}"},
+        {"name": "X-API-Secret", "content": "{{.SecureJsonData.apiSecret}}"},
         {"name": "X-API-Client", "content": "grafana-ds/1.0"}
       ]
     }

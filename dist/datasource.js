@@ -27,6 +27,8 @@ System.register([], function(exports_1) {
                         var targetComponents = target.target.split('@');
                         var deviceUuid = targetComponents[0];
                         var serviceUuid = targetComponents[1];
+                        if (targetComponents.length == 0 || (target.device_requirement == null || target.device_requirement == ""))
+                            continue;
                         if (target.device_requirement == "consumption") {
                             promises[(target.target + "#consumption")] = this.backendSrv.datasourceRequest({
                                 url: url + "/wifiplug-v1.0/device/" + deviceUuid + "/service/" + serviceUuid + "/energy/consumption/historic?date_from=" + dateFrom + "Z&date_to=" + dateTo + "Z&grouping=hour",
